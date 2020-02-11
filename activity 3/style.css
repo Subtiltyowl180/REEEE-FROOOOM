@@ -1,0 +1,116 @@
+*{
+    font-family:"Century Gothic";
+}
+a:link, a:visited {
+  background-color: gray;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 50px;
+  width:10%;
+}
+
+a:hover, a:active {
+  background-color: orange;
+}
+
+
+.form {
+
+    background-color:black;
+    border: orange 5px solid;
+    padding:50px;
+    width: 60%
+    display:inline-block;
+}
+
+
+.form-title{
+    margin-bottom: 50px
+}
+
+.form-title p{
+    color: white;
+    font-size:15px;
+    text-align: center;
+}
+
+
+
+.form-title h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.form-body{
+    display: inline-block;
+}
+
+
+label{
+    color: gray;
+}
+
+input::placeholder{
+    color:white;
+}
+
+input[type=text], input[type=Password] {
+    color:black;
+    background-color:orange; 
+    width: 100%;
+    border: none;
+    border-bottom: 2px #0E98D7 solid; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 30px;
+}
+
+.btns{
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 50px;
+}
+
+
+.btns input{
+    background-color:orange;
+    padding: 10px;
+    color: white;
+    margin-right: 20px;
+}
+
+
+input [type=submit] {
+
+    
+    width: 100px;
+    height: 100px;
+    border-radius:30px;
+}
+
+input[type=text]:focus,input[type=pass]:focus, {
+    outline: none;
+}
+
+h2{
+    text-align: center;
+    color: white;
+}
+
+.message{
+  
+  background-color: green;
+  color:white;
+  text-align:center;
+  border-radius:60px;
+  border:60px;
+  width: 100%;
+}
+.message
